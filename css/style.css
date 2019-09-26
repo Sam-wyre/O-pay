@@ -1,0 +1,268 @@
+            ​ *,
+            *:after,
+            *:before {
+                font-family: Avenir Next;
+                box-sizing: inherit;
+                border: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+             :root {
+                --theme-green: #00AEB5;
+                --theme-white: #ffffff;
+                --theme-dark: #2C3E50;
+            }
+            /* 
+            index styling
+             */
+            
+            .index-nav .navbar-nav a {
+                font-size: 14px;
+                margin-left: 15px;
+            }
+            
+            .index-nav .navbar-nav .signin {
+                color: white;
+                border-width: 1px;
+                border-radius: 5px;
+                border-style: solid;
+                width: 90px;
+                border-color: var(--theme-white);
+                text-align: center;
+            }
+            
+            .welcome_section {
+                background-color: var(--theme-green);
+                height: 577px;
+            }
+            
+            .welcome_body {
+                padding: 50px 80px;
+            }
+            
+            .welcome-text {
+                padding-top: 70px;
+                color: white;
+            }
+            
+            .welcome-text>h3 {
+                font-family: Avenir Next;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+            }
+            
+            .welcome-text>p {
+                font-weight: 200;
+                font-size: 16px;
+                line-height: 30px;
+            }
+            
+            .content {
+                padding-bottom: 100px;
+            }
+            
+            .why-opay {
+                background-color: var(--theme-white);
+                position: relative;
+                padding: 60px 0px;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                background-image: url("../img/Background 1.svg");
+                background-repeat: no-repeat;
+                background-position: top;
+            }
+            
+            .about_us_heading {
+                color: var(--theme-green);
+                padding: 40px 0px;
+                font-weight: normal;
+                font-family: Avenir Next;
+                font-style: normal;
+            }
+            
+            .about_us_body>h6 {
+                color: var(--theme-dark);
+                line-height: 2;
+                font-family: Avenir Next;
+            }
+            
+            .about_us_body>p {
+                color: var(--theme-dark);
+                font-size: 16px;
+                font-weight: 300;
+                font-family: Avenir Next;
+            }
+            
+            .feature {
+                padding-top: 100px;
+            }
+            
+            .meet_us h6 {
+                color: var(--theme-green);
+            }
+            
+            .meet_us p {
+                font-size: 14px;
+                font-weight: 300;
+            }
+            
+            .grey_color {
+                background-color: #ECF0F1;
+                height: 160px;
+                widows: 30px;
+            }
+            
+            .meet_us span {
+                font-size: 12px;
+                color: var(--theme-green);
+            }
+            
+            .feature_list .feature_title {
+                color: var(--theme-green);
+                font-family: Avenir Next;
+                font-size: 16px;
+            }
+            
+            .feature_list .feature_list_body {
+                color: var(--theme-dark);
+                font-size: 13px;
+                text-align: left;
+                font-weight: 300;
+            }
+            
+            .feature_img {
+                height: 180px;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .secure {
+                margin-top: 100px;
+                background-image: url("../img/Background2.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            
+            .secure_features {
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+                padding: 0px 35px;
+                background-color: var(--theme-white);
+            }
+            
+            .secure_features>ul {
+                color: var(--theme-green);
+                margin: 0;
+                padding-left: 10px;
+            }
+            
+            .secure_features>ul>li>a {
+                color: var(--theme-dark);
+                font-weight: 300;
+                font-size: 14px;
+            }
+            
+            .secure_features>ul>li>a:hover {
+                text-decoration: none;
+                cursor: auto;
+            }
+            
+            .secure_features>ul>li {
+                padding: 5px 0px;
+            }
+            
+            .secure_features .google_play_btn {
+                width: 100px;
+                margin-top: 50px;
+            }
+            
+            .secure_box-heading p {
+                color: var(--theme-green);
+                font-weight: 300;
+                line-height: 2;
+            }
+            
+            .footer {
+                border-width: 1px 0px 0px 0px;
+                border-color: var(--theme-dark);
+                border-style: solid;
+            }
+            
+            .footer p {
+                color: var(--theme-dark);
+                font-size: 12px;
+                font-weight: 300;
+            }
+            
+            .footer img {
+                padding-left: 20px;
+            }
+            /* 
+            
+            
+            Sign up form style begins here (file = Sign-up.html) 
+            ***********
+            */
+            
+            .signup-form .sign_up_title {
+                color: var(--theme-green);
+                font-family: Avenir Next;
+                font-style: normal;
+            }
+            
+            .signup-form .form-group label {
+                font-family: Avenir Next;
+                font-style: normal;
+                font-size: 14px;
+            }
+            
+            .signup-form .form-group input::placeholder {
+                color: rgba(44, 62, 80, 0.5);
+                font-size: 14px;
+                font-family: Avenir Next;
+                font-style: normal;
+            }
+            
+            .signup-form .form-group input {
+                border-color: var(--theme-green);
+            }
+            
+            .sign-btn {
+                background-color: var(--theme-green);
+                font-size: 12px;
+                border-color: var(--theme-green);
+            }
+            
+            .sign-btn:hover {
+                background-color: var(--theme-green);
+            }
+            
+            .signin_btn {
+                color: red;
+            }
+            
+            .sign_up_nav .signup_nav_menu a {
+                color: var(--theme-dark);
+                font-size: 14px;
+                margin-left: 20px;
+            }
+            
+            .signup_nav_menu .active {
+                background-color: var(--theme-green);
+                border-radius: 5px;
+                padding-left: 20px;
+                width: 80px;
+                text-align: center;
+            }
+            
+            .sign_up_nav .navbar-brand {
+                color: var(--theme-green);
+            }
+            
+            .forgotpass>a {
+                font-size: 12px;
+            }
